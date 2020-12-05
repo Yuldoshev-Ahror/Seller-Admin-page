@@ -1,0 +1,15 @@
+.maqwerxdf-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  & > div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.textqasxzcwe {
+  max-width: 300px;
+  width: 100%;
+}

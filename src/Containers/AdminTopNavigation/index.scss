@@ -1,0 +1,44 @@
+.my-admintopmenu {
+  width: 100%;
+  height: 82px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 2px solid #d0d1d2;
+  div {
+    a {
+      color: #b6b5b5;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+
+  .adtopmenu {
+    color: #1a2138;
+  }
+
+  .my-atext-avatar {
+    display: grid;
+    grid-template-columns: auto auto;
+    // justify-items: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 900px) {
+    div {
+      a {
+        font-size: 15px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    div {
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}

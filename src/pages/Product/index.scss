@@ -1,0 +1,25 @@
+.my-aproduct-container {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  .my-aproduct-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    padding: 20px;
+    // justify-items: center;
+    align-items: center;
+    // background-color: #fff;
+    .my-aproduct-text {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 28px;
+      color: #1a2138;
+    }
+    .my-aproduct-input {
+      max-width: 400px;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.my-adashbord-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #fff;
+
+  .my-adshbord-rghit {
+    width: 100%;
+    padding: 20px;
+  }
+  .my-adshbord-left {
+    width: 100%;
+    background-color: #f2f2f7;
+    padding: 20px;
+
+    h3 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      /* identical to box height */
+
+      color: #4c5f87;
+    }
+  }
+  .my-adshbord-content {
+    background: #ffffff;
+    box-shadow: 0px 15px 27px -7px rgba(78, 82, 98, 0.15);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    p {
+      width: 100%;
+      text-align: center;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 10px;
+      color: #3366fe;
+      padding-top: 15px;
+    }
+    .my-adshbord-box {
+      padding: 10px;
+      color: #7b839e;
+      border-bottom: 1px solid #ccc;
+    }
+    .my-adshbord-box-gr {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      .my-adshbord-box-title {
+        width: 100%;
+        text-align: start;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 16px;
+        color: #7b839e;
+      }
+      div:nth-child(1) {
+        width: 100%;
+        text-align: start;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 8px;
+        line-height: 10px;
+        color: #7b839e;
+      }
+      div:nth-child(2) {
+        width: 100%;
+        text-align: end;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 8px;
+        line-height: 10px;
+        text-align: right;
+        color: #83e226;
+      }
+    }
+  }
+}
